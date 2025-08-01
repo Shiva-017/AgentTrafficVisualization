@@ -5,7 +5,7 @@ export const COST_PER_TOKEN_USD = 0.00012;
 
 // Concurrency and motion tuning
 export const MAX_CONCURRENT = 10;
-export const V_MIN = 0.002; // world units/frame
+export const V_MIN = 0.003; // world units/frame
 export const V_MAX = 0.010; // world units/frame
 export const TRAIL_DECAY = 0.08; // alpha per frame on motion buffer
 

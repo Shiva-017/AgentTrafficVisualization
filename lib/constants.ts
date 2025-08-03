@@ -7,7 +7,7 @@ export const COST_PER_TOKEN_USD = 0.00012;
 export const MAX_CONCURRENT = 10;
 export const V_MIN = 0.003; // world units/frame
 export const V_MAX = 0.012; // world units/frame
-export const TRAIL_DECAY = 0.08; // alpha per frame on motion buffer
+export const TRAIL_DECAY = 0.07; // alpha per frame on motion buffer
 
 // Radar visuals
 export const RING_COUNT = 5;

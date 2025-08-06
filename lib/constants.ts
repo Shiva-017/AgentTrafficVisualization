@@ -10,7 +10,7 @@ export const V_MAX = 0.012; // world units/frame
 export const TRAIL_DECAY = 0.07; // alpha per frame on motion buffer
 
 // Radar visuals
-export const RING_COUNT = 5;
+export const RING_COUNT = 6;
 
 // Radar path curvature controls
 // - RADAR_CURVE_AMOUNT: 0 = straight lines to center, 1 = max curve (half turn cap)

@@ -17,7 +17,7 @@ export const RING_COUNT = 6;
 // - RADAR_MAX_TURNS: maximum rotations (in turns) allowed over full path. 0.5 = half rotation
 // - RADAR_WOBBLE: proportion of the curve budget allocated to side-to-side wobble (random per agent)
 export const RADAR_CURVE_AMOUNT = 0.65; // main knob to increase/decrease curvature [0..1]
-export const RADAR_MAX_TURNS = 0.4;    // cap total spin to half a rotation
+export const RADAR_MAX_TURNS = 0.5;    // cap total spin to half a rotation
 export const RADAR_WOBBLE = 0.3;      // 0 = pure spiral, 1 = mostly wobble
 
 // Radar completion pulse controls

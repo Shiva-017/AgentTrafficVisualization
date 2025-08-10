@@ -24,7 +24,7 @@ export const RADAR_WOBBLE = 0.25;      // 0 = pure spiral, 1 = mostly wobble
 // A subtle expanding ring emitted at the center when an agent reaches the target.
 export const RADAR_PULSE_MAX_RADIUS = 0.10; // as fraction of radar radius
 export const RADAR_PULSE_DURATION_MS = 900; // total life of a pulse
-export const RADAR_PULSE_WIDTH = 4;         // stroke width in px
+export const RADAR_PULSE_WIDTH = 3;         // stroke width in px
 export const RADAR_PULSE_SECONDARY = 0.6;   // second ring offset multiplier (0 to disable)
 
 // Radar ping sound volume

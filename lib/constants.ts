@@ -28,7 +28,7 @@ export const RADAR_PULSE_WIDTH = 3;         // stroke width in px
 export const RADAR_PULSE_SECONDARY = 0.5;   // second ring offset multiplier (0 to disable)
 
 // Radar ping sound volume
-export const RADAR_PING_VOLUME = 0.5;
+export const RADAR_PING_VOLUME = 0.4;
 export const RADAR_PING_AUDIO_PATH = '/audio/sonar_ping_3.mp3';
 
 // Radar render/update cadence (UI only; not engine tick)

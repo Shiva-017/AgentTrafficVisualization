@@ -36,7 +36,7 @@ export const RADAR_PING_AUDIO_PATH = '/audio/sonar_ping_3.mp3';
 export const RADAR_REFRESH_HZ = 24; // e.g., 24 Hz; set 60 for smoother motion
 
 // Engine tick rate (Hz). Worker internal loop cadence (not UI render).
-export const ENGINE_TICK_HZ = 30;
+export const ENGINE_TICK_HZ = 20;
 
 // TPS dynamics (per-item throughput variability)
 // - TPS_ALPHA: smoothing toward the current target per tick (higher = faster moves)

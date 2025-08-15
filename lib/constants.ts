@@ -42,7 +42,7 @@ export const ENGINE_TICK_HZ = 20;
 // - TPS_ALPHA: smoothing toward the current target per tick (higher = faster moves)
 // - TPS_TARGET_HOLD_MS_*: how long to hold a sampled target before choosing a new one
 // - TPS_JITTER_FRAC: small per-tick flutter around the held target (as fraction of range)
-export const TPS_ALPHA = 0.3;
+export const TPS_ALPHA = 0.25;
 export const TPS_TARGET_HOLD_MS_MIN = 1600;
 export const TPS_TARGET_HOLD_MS_MAX = 3600;
 export const TPS_JITTER_FRAC = 0.03;

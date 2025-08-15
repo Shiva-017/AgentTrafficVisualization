@@ -33,7 +33,7 @@ export const RADAR_PING_AUDIO_PATH = '/audio/sonar_ping_3.mp3';
 
 // Radar render/update cadence (UI only; not engine tick)
 // Controls how often agent positions and effects update on the radar.
-export const RADAR_REFRESH_HZ = 30; // e.g., 30 Hz; set 60 for smoother motion
+export const RADAR_REFRESH_HZ = 24; // e.g., 24 Hz; set 60 for smoother motion
 
 // Engine tick rate (Hz). Worker internal loop cadence (not UI render).
 export const ENGINE_TICK_HZ = 30;

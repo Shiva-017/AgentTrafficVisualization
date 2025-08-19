@@ -44,7 +44,7 @@ export const ENGINE_TICK_HZ = 20;
 // - TPS_JITTER_FRAC: small per-tick flutter around the held target (as fraction of range)
 export const TPS_ALPHA = 0.25;
 export const TPS_TARGET_HOLD_MS_MIN = 1800;
-export const TPS_TARGET_HOLD_MS_MAX = 3600;
+export const TPS_TARGET_HOLD_MS_MAX = 4200;
 export const TPS_JITTER_FRAC = 0.03;
 
 // Transport batching and store flush cadences (UI data pipeline)

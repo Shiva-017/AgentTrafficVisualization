@@ -52,7 +52,7 @@ export const TPS_JITTER_FRAC = 0.05;
 //   Higher values reduce churn (fewer updates) but can add latency.
 // - STORE_FLUSH_INTERVAL_MS: How often coalesced diffs are committed to Zustand.
 //   Keep similar to BRIDGE_BATCH_MS unless you want extra smoothing.
-export const BRIDGE_BATCH_MS = 50;          // ms: batch worker messages
+export const BRIDGE_BATCH_MS = 80;          // ms: batch worker messages
 export const STORE_FLUSH_INTERVAL_MS = 50;  // ms: flush coalesced diffs to store
 
 // Sectors and colors

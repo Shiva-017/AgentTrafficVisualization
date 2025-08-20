@@ -102,7 +102,7 @@ function stepEngine(ctx: Ctx) {
   if (ctx.running && now >= ctx.nextStartAt) {
     if (tryStartOne(ctx, now, diffs)) {
       // schedule next start
-      const mean = 800 / ctx.speed;
+      const mean = 700 / ctx.speed;
       ctx.nextStartAt = now + Math.max(50, expDelayMs(mean, ctx.rng));
     } else {
       // nothing to start; check again soon

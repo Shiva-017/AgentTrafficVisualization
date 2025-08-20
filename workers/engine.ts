@@ -106,7 +106,7 @@ function stepEngine(ctx: Ctx) {
       ctx.nextStartAt = now + Math.max(50, expDelayMs(mean, ctx.rng));
     } else {
       // nothing to start; check again soon
-      ctx.nextStartAt = now + 300;
+      ctx.nextStartAt = now + 250;
     }
   }
 

@@ -45,7 +45,7 @@ export const ENGINE_TICK_HZ = 20;
 export const TPS_ALPHA = 0.25;
 export const TPS_TARGET_HOLD_MS_MIN = 1800;
 export const TPS_TARGET_HOLD_MS_MAX = 4200;
-export const TPS_JITTER_FRAC = 0.03;
+export const TPS_JITTER_FRAC = 0.05;
 
 // Transport batching and store flush cadences (UI data pipeline)
 // - BRIDGE_BATCH_MS: Coalesces raw worker messages before applying to the app store.

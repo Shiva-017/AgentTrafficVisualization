@@ -53,7 +53,7 @@ export const TPS_JITTER_FRAC = 0.05;
 // - STORE_FLUSH_INTERVAL_MS: How often coalesced diffs are committed to Zustand.
 //   Keep similar to BRIDGE_BATCH_MS unless you want extra smoothing.
 export const BRIDGE_BATCH_MS = 80;          // ms: batch worker messages
-export const STORE_FLUSH_INTERVAL_MS = 50;  // ms: flush coalesced diffs to store
+export const STORE_FLUSH_INTERVAL_MS = 80;  // ms: flush coalesced diffs to store
 
 // Sectors and colors
 export const SECTORS = ['PLANNING', 'BUILD', 'EVAL', 'DEPLOY'] as const;

@@ -37,7 +37,7 @@ export function makeInitialState(seed: string = DEFAULT_SEED): AppState {
 }
 
 export function hzToMs(hz: number): number {
-  return hz > 0 ? Math.round(1000 / hz) : 1000 / 30;
+  return hz > 0 ? Math.round(1000 / hz) : 1000 / 20;
 }
 
 interface Ctx {

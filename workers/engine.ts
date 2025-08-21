@@ -90,7 +90,7 @@ function tryStartOne(ctx: Ctx, now: number, diffs: { items: Partial<WorkItem>[];
 function stepEngine(ctx: Ctx) {
   const now = Date.now();
   const diffs: { items: Partial<WorkItem>[]; agents: Partial<Agent>[]; agents_remove?: string[] } = { items: [], agents: [] };
-  // Simulation delta (seconds)
+  // Simulation time delta in seconds
   const dtSec = Math.max(0, (now - ctx.lastTickAt) / 1000);
   ctx.lastTickAt = now;
 

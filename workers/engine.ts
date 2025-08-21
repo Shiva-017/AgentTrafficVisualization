@@ -76,7 +76,7 @@ function tryStartOne(ctx: Ctx, now: number, diffs: { items: Partial<WorkItem>[];
   const agentId = `AG${++ctx.agentCounter}`;
   const nowMs = now;
   // minimal agent (positions unused yet)
-  ctx.state.agents[agentId] = { id: agentId, work_item_id: pick.id, x: 0, y: 0, v: 0.002, curve_phase: 0 } as Agent;
+  ctx.state.agents[agentId] = { id: agentId, work_item_id: pick.id, x: 0, y: 0, v: 0.003, curve_phase: 0 } as Agent;
   pick.status = 'in_progress';
   pick.agent_id = agentId;
   pick.started_at = nowMs;

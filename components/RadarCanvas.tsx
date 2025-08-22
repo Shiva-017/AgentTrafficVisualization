@@ -305,7 +305,7 @@ export default function RadarCanvas() {
     // Tuning knobs for the trailing stroke style
     const TRAIL_STROKE_LEN = 4;   // pixels: length of each stroke
     const TRAIL_STROKE_WIDTH = 1.5;  // pixels: width of each stroke
-    const TRAIL_GAP_PX = 8;        // pixels: minimum distance moved before emitting next stroke
+    const TRAIL_GAP_PX = 10;        // pixels: minimum distance moved before emitting next stroke
     
     const MAX_SEGS = 60;           // cap per-agent segments
     const LIFESPAN_MS = 2000;      // ms before a stroke fades out fully

@@ -303,7 +303,7 @@ export default function RadarCanvas() {
     type TrailSeg = { x: number; y: number; dir: number; created: number };
     const trails = new Map<string, { segs: TrailSeg[]; lastEmit: number; lastX: number; lastY: number }>();
     // Tuning knobs for the trailing stroke style
-    const TRAIL_STROKE_LEN = 3;   // pixels: length of each stroke
+    const TRAIL_STROKE_LEN = 4;   // pixels: length of each stroke
     const TRAIL_STROKE_WIDTH = 2;  // pixels: width of each stroke
     const TRAIL_GAP_PX = 8;        // pixels: minimum distance moved before emitting next stroke
     

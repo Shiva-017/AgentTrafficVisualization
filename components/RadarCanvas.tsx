@@ -308,7 +308,7 @@ export default function RadarCanvas() {
     const TRAIL_GAP_PX = 10;        // pixels: minimum distance moved before emitting next stroke
     
     const MAX_SEGS = 80;           // cap per-agent segments
-    const LIFESPAN_MS = 2000;      // ms before a stroke fades out fully
+    const LIFESPAN_MS = 1800;      // ms before a stroke fades out fully
 
     // Center pulses when agents complete
     type Pulse = { created: number };

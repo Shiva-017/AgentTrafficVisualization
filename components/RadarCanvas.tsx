@@ -434,7 +434,7 @@ export default function RadarCanvas() {
 
       // Arrow styling knobs
       const ARROW_CORNER_RADIUS = 1.5;    // rounded corners on arrow polygon
-      const ARROW_SIZE = 1.25;           // overall arrow scale (length & width)
+      const ARROW_SIZE = 1.3;           // overall arrow scale (length & width)
       const ARROW_NOTCH_RATIO = -0.25;   // how deep the rear notch is, relative to length
       // Pull arrow color from global CSS variable --green-bright (fallback to #57ff7a)
       function cssVar(name: string, fallback: string): string {

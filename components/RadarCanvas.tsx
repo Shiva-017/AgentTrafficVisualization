@@ -35,7 +35,7 @@ const STORY: StoryConfig = {
     { text: "Enjoy the vibes of agents working..", pauseAfterMs: 4200, cursorChar: '.', blinkMs: 450 },
     { text: "Play music below; switch between different ATC locations...", pauseAfterMs: 5200, cursorChar: '\\/', blinkMs: 500 },
   ],
-  typingMsPerChar: 5,
+  typingMsPerChar: 6,
   deletingMsPerChar: 14,
   betweenLinesDelayMs: 450,
   startDelayMs: 350,

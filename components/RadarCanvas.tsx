@@ -37,7 +37,7 @@ const STORY: StoryConfig = {
   ],
   typingMsPerChar: 6,
   deletingMsPerChar: 12,
-  betweenLinesDelayMs: 450,
+  betweenLinesDelayMs: 500,
   startDelayMs: 350,
   loop: false,
   cursor: { char: "|", blinkMs: 500 },

@@ -36,7 +36,7 @@ const STORY: StoryConfig = {
     { text: "Play music below; switch between different ATC locations...", pauseAfterMs: 5200, cursorChar: '\\/', blinkMs: 500 },
   ],
   typingMsPerChar: 6,
-  deletingMsPerChar: 14,
+  deletingMsPerChar: 12,
   betweenLinesDelayMs: 450,
   startDelayMs: 350,
   loop: false,

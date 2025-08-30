@@ -144,7 +144,7 @@ export default function RadarCanvas() {
       // Border ticks around the radar (like minute indicators)
       // Controls for width, spacing (count), and height (length)
       const BORDER_TICK_STROKE_WIDTH = 1.5; // line width
-      const BORDER_TICK_COUNT = 500;          // spacing: number of ticks around circle
+      const BORDER_TICK_COUNT = 360;          // spacing: number of ticks around circle
       const BORDER_TICK_LENGTH = Math.max(2.5, r * 0.025); // line height/length
       const BORDER_TICK_OFFSET = 2;          // small outward offset from circle edge
       ctx.strokeStyle = 'rgba(60, 120, 90, 0.25)'; // same as GRID_COLOR

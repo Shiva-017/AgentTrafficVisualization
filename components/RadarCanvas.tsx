@@ -108,7 +108,7 @@ export default function RadarCanvas() {
       // Tweak these constants to change dotted appearance
       const GRID_COLOR = 'rgba(60, 120, 90, 0.25)';
       const GRID_STROKE_WIDTH = 1; // thickness of the dot/stroke
-      const GRID_DOT_LEN = 3;         // length of the drawn segment (dot)
+      const GRID_DOT_LEN = 4;         // length of the drawn segment (dot)
       const GRID_GAP_LEN = 4;         // length of the gap between dots
       ctx.strokeStyle = GRID_COLOR;
       ctx.lineWidth = GRID_STROKE_WIDTH;

@@ -15,7 +15,7 @@ function fmtInt(n: number) {
   return new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 }).format(n || 0);
 }
 
-function fmtFloat(n: number, frac = 1) {
+function fmtFloat(n: number, frac = 2) {
   const v = Number.isFinite(n) ? n : 0;
   return v.toFixed(frac);
 }

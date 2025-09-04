@@ -447,7 +447,7 @@ export default function RadarCanvas() {
       }
       const ARROW_COLOR_HEX = cssVar('--green-bright', '#57ff7a');
       // Label styling knobs
-      const LABEL_OFFSET_Y = 25;        // pixels below arrow in screen space
+      const LABEL_OFFSET_Y = 22;        // pixels below arrow in screen space
       const LABEL_PAD_X = 4;
       const LABEL_PAD_Y = 2;
       const LABEL_FONT = '10px ui-monospace, SFMono-Regular, Menlo, monospace';

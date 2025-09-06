@@ -19,7 +19,7 @@ const USE_SERVER_STREAM = true;
 
 export default function ControlBar() {
 	const [plan, setPlan] = useState<string>(DEFAULT_PLAN_NAME);
-	const [demoTask, setDemoTask] = useState<string>('Research and summarize ATC Pro design');
+	const [demoTask, setDemoTask] = useState<string>('Summarize the ATC Pro dashboard design');
 	const pingEnabled = useSyncExternalStore(
 		appStore.subscribe,
 		() => appStore.getState().pingAudioEnabled,

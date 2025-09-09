@@ -1,4 +1,4 @@
-// Core TypeScript types for the Calming Control Room
+// Core TypeScript types for the Agent Traffic Control panel
 
 export type Status = 'queued' | 'assigned' | 'in_progress' | 'blocked' | 'done';
 

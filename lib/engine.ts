@@ -28,7 +28,7 @@ export function buildItemsFromPlan(plan: PlanDefinition): Record<string, WorkIte
   return items;
 }
 
-// Detect cycles using DFS. Returns list of cycles (each as id array) or empty if none.
+// Detect cycles via DFS. Returns list of cycles (each as id array) or empty if none.
 export function detectCycles(items: Record<string, WorkItem>): string[][] {
   const graph = new Map<string, string[]>(
     Object.values(items).map((i) => [i.id, i.depends_on])

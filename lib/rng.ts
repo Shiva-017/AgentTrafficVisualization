@@ -1,4 +1,4 @@
-// Deterministic RNG utilities (mulberry32 + string seeding)
+// Deterministic RNG (mulberry32 + xmur3-like string seeding)
 
 // Hash a string to a 32-bit unsigned integer (xmur3-like)
 export function seedFromString(str: string): number {

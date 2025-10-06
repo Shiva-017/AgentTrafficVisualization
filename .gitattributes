@@ -1,0 +1,21 @@
+@"
+* text=auto eol=lf
+
+# Source
+*.js   text eol=lf
+*.ts   text eol=lf
+*.jsx  text eol=lf
+*.tsx  text eol=lf
+*.css  text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+*.py   text eol=lf
+
+# Windows scripts keep CRLF
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+"@ | Out-File -Encoding utf8 .gitattributes
+
+git add .gitattributes
+git add --renormalize .
+git commit -m "Add .gitattributes and normalize line endings"

@@ -1,3 +1,5 @@
+"use client";
+
 import WorkTable from '../components/WorkTable';
 import ControlBar from '../components/ControlBar';
 import RadarCanvas from '../components/RadarCanvas';
@@ -7,8 +9,15 @@ import ProjectDescription from '../components/ProjectDescription';
 import OperatorGroups from '../components/OperatorGroups';
 import TopOverview from '../components/TopOverview';
 import TimelineStatusBar from '../components/TimelineStatusBar';
+import ResultBar from '../components/ResultBar';
+import React from 'react';
+import { useEffect } from 'react';
+import { connectRealtime } from '@/lib/realtimeClient';
 
 export default function Home() {
+  useEffect(() => {
+    try { connectRealtime(); } catch {}
+  }, []);
   return (
     <div className="h-screen overflow-hidden bg-black text-white flex flex-col">
       {/* Header */}
@@ -118,6 +127,7 @@ export default function Home() {
                 <div className="px-2 pt-2">
                   <TimelineStatusBar />
                 </div>
+                <ResultBar />
                 <ControlBar />
               </div>
             </div>
